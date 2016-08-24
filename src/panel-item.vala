@@ -62,7 +62,7 @@ public class PanelItem : Box {
         label = new Label ("");
         image = new Image.from_stock (Stock.MISSING_IMAGE, IconSize.LARGE_TOOLBAR); 
         label.show ();
-        label.set_justify(Justification.LEFT);
+        label.set_justify (Justification.LEFT);
         image.show ();
         box.show ();
         box.pack_start (image, false, false, 10);
